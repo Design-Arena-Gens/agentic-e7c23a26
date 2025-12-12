@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Ridge Township - Premium Living in Hinjewadi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="video-container">
+        <div class="video-overlay"></div>
+        <video id="mainVideo" autoplay muted playsinline>
+            <source src="placeholder.mp4" type="video/mp4">
+        </video>
+
+        <div class="content-wrapper">
+            <!-- Scene 1: Opening -->
+            <section class="scene active" id="scene1">
+                <div class="scene-content fade-in">
+                    <h1 class="hindi-text">क्या आप ढूंढ रहे हैं एक प्रीमियम लाइफस्टाइल…</h1>
+                    <h2 class="hindi-text">आईटी हब के बिलकुल पास?</h2>
+                </div>
+            </section>
+
+            <!-- Scene 2: Introduction -->
+            <section class="scene" id="scene2">
+                <div class="scene-content fade-in">
+                    <h1 class="brand-name">Blue Ridge Township, Phase 1</h1>
+                    <p class="location-text">Hinjewadi IT Park के बिलकुल बाजू में!</p>
+                </div>
+            </section>
+
+            <!-- Scene 3: Apartments -->
+            <section class="scene" id="scene3">
+                <div class="scene-content fade-in">
+                    <h2>स्पेशियस 2 और 3 BHK प्रीमियम फ्लैट</h2>
+                    <p class="feature-text">हर स्क्वायर फुट में है कम्फर्ट, क्लास और लग्ज़री का परफेक्ट कॉम्बिनेशन</p>
+                    <div class="apartment-cards">
+                        <div class="card">
+                            <h3>2 BHK</h3>
+                            <p>Premium Layouts</p>
+                        </div>
+                        <div class="card">
+                            <h3>3 BHK</h3>
+                            <p>Spacious Living</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Scene 4: Amenities -->
+            <section class="scene" id="scene4">
+                <div class="scene-content fade-in">
+                    <h2>World-Class Amenities</h2>
+                    <div class="amenities-grid">
+                        <div class="amenity-item">
+                            <div class="amenity-icon">🏊</div>
+                            <p>Swimming Pool</p>
+                        </div>
+                        <div class="amenity-item">
+                            <div class="amenity-icon">🏋️</div>
+                            <p>Clubhouse</p>
+                        </div>
+                        <div class="amenity-item">
+                            <div class="amenity-icon">🏐</div>
+                            <p>Sports Area</p>
+                        </div>
+                        <div class="amenity-item">
+                            <div class="amenity-icon">🌊</div>
+                            <p>Riverside Views</p>
+                        </div>
+                        <div class="amenity-item">
+                            <div class="amenity-icon">🎓</div>
+                            <p>International School</p>
+                        </div>
+                        <div class="amenity-item">
+                            <div class="amenity-icon">☕</div>
+                            <p>Shopping & Café</p>
+                        </div>
+                    </div>
+                    <p class="subtitle">सब कुछ एक ही Township में!</p>
+                </div>
+            </section>
+
+            <!-- Scene 5: Pricing -->
+            <section class="scene" id="scene5">
+                <div class="scene-content fade-in">
+                    <h2>Attractive Pricing</h2>
+                    <div class="pricing-cards">
+                        <div class="price-card">
+                            <h3>Starting Price</h3>
+                            <div class="price">₹99 लाख</div>
+                            <p>से शुरू</p>
+                        </div>
+                        <div class="price-card highlight">
+                            <h3>3 BHK</h3>
+                            <div class="price">₹1.27 करोड़</div>
+                            <p>तक</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Scene 6: Location -->
+            <section class="scene" id="scene6">
+                <div class="scene-content fade-in">
+                    <h2>Hinjewadi Phase 1 में लोकेटेड</h2>
+                    <div class="location-features">
+                        <div class="location-point">
+                            <span class="icon">🚶</span>
+                            <p>ऑफिस तक वॉकिंग डिस्टेंस</p>
+                        </div>
+                        <div class="location-point">
+                            <span class="icon">🚗</span>
+                            <p>Zero Traffic</p>
+                        </div>
+                        <div class="location-point">
+                            <span class="icon">😌</span>
+                            <p>Zero Stress</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Scene 7: CTA -->
+            <section class="scene" id="scene7">
+                <div class="scene-content fade-in">
+                    <h2>Book Your Site Visit Today</h2>
+                    <div class="cta-container">
+                        <a href="tel:9098059701" class="cta-button pulse">
+                            📞 9098059701
+                        </a>
+                        <p class="cta-text">अभी कॉल करें!</p>
+                    </div>
+                    <div class="social-proof">
+                        <p>✓ RERA Approved</p>
+                        <p>✓ Premium Location</p>
+                        <p>✓ Limited Units Available</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Navigation -->
+        <div class="nav-controls">
+            <button id="prevBtn" class="nav-btn">◀</button>
+            <div class="progress-dots">
+                <span class="dot active" data-scene="1"></span>
+                <span class="dot" data-scene="2"></span>
+                <span class="dot" data-scene="3"></span>
+                <span class="dot" data-scene="4"></span>
+                <span class="dot" data-scene="5"></span>
+                <span class="dot" data-scene="6"></span>
+                <span class="dot" data-scene="7"></span>
+            </div>
+            <button id="nextBtn" class="nav-btn">▶</button>
+        </div>
+
+        <!-- Floating CTA -->
+        <a href="tel:9098059701" class="floating-cta">
+            📞 Call Now
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
